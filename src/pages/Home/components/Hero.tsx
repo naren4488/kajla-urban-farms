@@ -119,7 +119,7 @@ function Hero() {
                     {/* CTA Button */}
                     <a
                       href="#catalogue"
-                      className="inline-flex items-center gap-2 px-6 md:px-8 py-6 md:py-7 bg-brand-primary-dark hover:bg-brand-primary text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-base md:text-lg"
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-brand-primary-dark hover:bg-brand-primary text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 text-base md:text-lg"
                     >
                       DOWNLOAD CATALOGUE
                       <ArrowRight className="h-5 w-5 md:h-6 md:w-6" />
