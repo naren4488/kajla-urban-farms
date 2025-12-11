@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import WhyChooseUs from "./components/WhyChooseUs";
 import OurStrengths from "./components/OurStrengths";
 import OurServices from "./components/OurServices";
+import OurProjects from "./components/OurProjects";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <WhyChooseUs />
       <OurStrengths />
       <OurServices />
+      <OurProjects />
     </div>
   );
 }

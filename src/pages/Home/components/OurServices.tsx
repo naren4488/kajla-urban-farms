@@ -67,15 +67,17 @@ function OurServices() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border-2 border-gray-100 flex flex-col"
+                className="flex-1 bg-white rounded-xl overflow-hidden shadow-lg border-2 border-gray-100 flex flex-col group hover:shadow-xl transition-shadow duration-300"
               >
                 {/* Service Image */}
-                <div className="relative w-full h-48 md:h-56 lg:h-64">
+                <div className="relative w-full h-48 md:h-56 lg:h-64 overflow-hidden">
                   <img
                     src={service.image}
                     alt={service.title}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300 ease-in-out"
                   />
+                  {/* Optional: Subtle overlay on hover */}
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                 </div>
 
                 {/* Header Bar */}
@@ -98,7 +100,7 @@ function OurServices() {
                       key={featureIndex}
                       className="flex items-start gap-3 bg-brand-primary-light/20 rounded-lg p-3"
                     >
-                      <Check className="w-5 h-5 text-brand-primary-dark flex-shrink-0 mt-0.5" />
+                      <Check className="w-5 h-5 text-brand-primary-dark shrink-0 mt-0.5" />
                       <p className="text-sm md:text-base text-gray-700 leading-relaxed">
                         {feature}
                       </p>
