@@ -3,6 +3,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import OurStrengths from "./components/OurStrengths";
 import OurServices from "./components/OurServices";
 import OurProjects from "./components/OurProjects";
+import Testimonials from "./components/Testimonials";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <OurStrengths />
       <OurServices />
       <OurProjects />
+      <Testimonials />
     </div>
   );
 }
