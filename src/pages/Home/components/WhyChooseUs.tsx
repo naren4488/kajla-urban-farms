@@ -15,7 +15,7 @@ function WhyChooseUs() {
           <div className="max-w-6xl mx-auto space-y-6 md:space-y-8">
             {/* First Paragraph */}
             <p className="text-base md:text-lg lg:text-xl text-gray-800 leading-relaxed text-left">
-              At Kajla Urban Farms, we bring years of hands-on expertise in sustainable rooftop organic gardening. Every
+              At Urban Agro, we bring years of hands-on expertise in sustainable rooftop organic gardening. Every
               system we design and install is crafted using proven natural farming practices and our own in-house
               manufacturing, ensuring consistent quality and long-term reliability.
             </p>
