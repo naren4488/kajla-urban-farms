@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const companyLinks = [
   { name: "About Us", href: "/about" },
   { name: "Terms And Conditions", href: "/terms" },
@@ -21,13 +23,13 @@ function Footer() {
             <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-4">Company</h3>
             <nav className="flex flex-col gap-3">
               {companyLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
-                  href={link.href}
+                  to={link.href}
                   className="text-base md:text-lg text-gray-700 hover:text-brand-primary transition-colors"
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
             </nav>
           </div>
