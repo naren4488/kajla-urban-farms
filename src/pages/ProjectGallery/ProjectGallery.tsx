@@ -13,12 +13,12 @@ const galleryImages = [
   { id: 7, image: "/images/project-gallery/img7.jpeg", title: "Project 7" },
   { id: 8, image: "/images/project-gallery/img8.jpeg", title: "Project 8" },
   // Row 4: 2 images
-  { id: 9, image: "/images/project-gallery/img9.jpeg", title: "Project 9" },
+  { id: 9, image: "/images/project-gallery/img9.png", title: "Project 9" },
   { id: 10, image: "/images/project-gallery/img10.jpg", title: "Project 10" },
   // Row 5: 3 images
-  { id: 11, image: "/images/project-gallery/img11.jpeg", title: "Project 11" },
+  { id: 11, image: "/images/project-gallery/img11.png", title: "Project 11" },
   { id: 12, image: "/images/project-gallery/img12.jpeg", title: "Project 12" },
-  { id: 13, image: "/images/project-gallery/img13.jpeg", title: "Project 13" },
+  { id: 13, image: "/images/project-gallery/img13.png", title: "Project 13" },
 ];
 
 const projectIncludes = [
@@ -77,7 +77,7 @@ function ProjectGallery() {
                 {row.map((item) => (
                   <div
                     key={item.id}
-                    className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer aspect-[4/3]"
+                    className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group cursor-pointer aspect-5/3"
                   >
                     {/* Image */}
                     <img
@@ -86,7 +86,6 @@ function ProjectGallery() {
                       className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                     {/* Optional overlay on hover */}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300" />
                   </div>
                 ))}
               </div>
