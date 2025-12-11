@@ -54,7 +54,7 @@ function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full h-screen min-h-[600px]">
+    <section className="relative w-full h-[500px] md:h-screen min-h-[600px]">
       <Swiper
         onSwiper={(swiper) => {
           swiperRef.current = swiper;

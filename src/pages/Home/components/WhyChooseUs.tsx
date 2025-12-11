@@ -1,7 +1,7 @@
 function WhyChooseUs() {
   return (
     <section className="relative w-full bg-white py-12 md:py-16 lg:py-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" px-4 sm:px-6 lg:px-8">
         {/* Text Content Section */}
         <div className="relative bg-white pb-8 md:pb-12">
           {/* Heading - Centered */}
@@ -31,11 +31,11 @@ function WhyChooseUs() {
         </div>
 
         {/* Curved Divider with Decorative Images */}
-        <div className="relative w-full ">
+        <div className="relative w-full">
           {/* Decorative Images on Curve */}
           <div className="absolute z-10 top-0 left-0 right-0 flex items-end justify-between ">
             {/* Tomato on Left - positioned on the curve */}
-            <div className="w-24 h-24 md:w-40 md:h-40 lg:w-68 lg:h-68  absolute -top-10 md:-top-20 left-0">
+            <div className="w-32 h-32 md:w-40 md:h-40 lg:w-68 lg:h-68  absolute -top-10 md:-top-20 left-0">
               <img
                 src="/images/tomato.png"
                 alt="Fresh tomatoes"
@@ -44,7 +44,7 @@ function WhyChooseUs() {
             </div>
 
             {/* Mint Leaves on Right - positioned on the curve */}
-            <div className="w-24 h-24 md:w-40 md:h-40 lg:w-68 lg:h-68 absolute -top-10 md:-top-20 -right-4 md:-right-20 ">
+            <div className="w-32 h-32 md:w-40 md:h-40 lg:w-68 lg:h-68 absolute -top-10 md:-top-20 -right-4 md:-right-8">
               <img
                 src="/images/mint-leaves.png"
                 alt="Fresh mint leaves"
