@@ -67,7 +67,7 @@ function ProjectGallery() {
         </div>
 
         {/* Gallery Grid with Alternating Rows */}
-        <div className="md:space-y-4 mb-16 md:mb-20">
+        <div className="space-y-4 mb-16 md:mb-20">
           {rows.map((row, rowIndex) => {
             // Determine grid columns based on row length
             const gridColsClass = row.length === 3 ? "grid-cols-1 md:grid-cols-3" : "grid-cols-1 md:grid-cols-2";
